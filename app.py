@@ -19,7 +19,7 @@ class Battery(App):
     ctx.text_align = ctx.CENTER
     ctx.text_baseline = ctx.MIDDLE
     clear_background(ctx)
-    label = f"{(BatteryLevel()/106.25):.2f}%"
+    label = f"{(BatteryLevel()/106.25)*100:.2f}%"
     ctx.move_to(0, 0).gray(1).text(label)
     ctx.restore()
 

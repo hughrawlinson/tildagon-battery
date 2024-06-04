@@ -37,4 +37,4 @@ description = "See badge battery state"
 # increased, we interpret this as a new version being released.
 #
 # Version number must be an integer!
-version = "0.0.1"
+version = "0.4.0"
